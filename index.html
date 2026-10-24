@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SKA DOJO | Kyokushin Karate – Strength starts here.</title>
+  <meta name="description" content="SKA DOJO – Kyokushin Karate training for students of all ages in a welcoming, family-focused environment. Request a trial class. [Add city/area for local SEO]">
+  <meta name="theme-color" content="#141414">
+  <!-- PLACEHOLDER: replace with the live URL before launch -->
+  <link rel="canonical" href="https://www.example.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="SKA DOJO | Kyokushin Karate">
+  <meta property="og:description" content="Empowering students of all ages through expert Kyokushin Karate in a welcoming, family-focused environment.">
+  <meta property="og:url" content="https://www.example.com/">
+  <meta property="og:image" content="https://www.example.com/assets/images/og-image.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="wordmark" href="#home" aria-label="SKA DOJO – home">
+        <span class="wordmark__mark" aria-hidden="true">S</span>
+        <span class="wordmark__text">SKA <span>DOJO</span></span>
+      </a>
+
+      <nav class="nav" id="site-nav" aria-label="Primary">
+        <ul class="nav__list">
+          <li><a href="#home" data-nav>Home</a></li>
+          <li><a href="#about" data-nav>About Us</a></li>
+          <li><a href="#programs" data-nav>Programs</a></li>
+          <li><a href="#instructors" data-nav>Instructors</a></li>
+          <li><a href="#events" data-nav>Events</a></li>
+          <li><a href="#find" data-nav>Contact</a></li>
+        </ul>
+        <a class="btn btn--primary nav__cta" href="#trial" data-trial>Get a Free Trial</a>
+      </nav>
+
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open menu">
+        <span class="menu-toggle__bars" aria-hidden="true"><i></i><i></i><i></i></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- SECTION 1: HERO CAROUSEL -->
+    <section class="hero" id="home" aria-roledescription="carousel" aria-label="SKA DOJO highlights">
+      <div class="hero__viewport">
+        <div class="hero__slide is-active" id="slide-1" role="group" aria-roledescription="slide" aria-label="1 of 2">
+          <div class="hero__media img-frame" data-label="Photo: Sensei, Kancho and Sōsai">
+            <img src="assets/images/hero-leadership.jpg" alt="Three senior karate instructors in white gi throwing punches against a glowing blue background" width="1600" height="1000" fetchpriority="high" decoding="async">
+          </div>
+          <div class="container hero__content">
+            <p class="eyebrow">Kyokushin Karate</p>
+            <h1 class="hero__title">Strength starts here.</h1>
+            <p class="hero__text">Empowering students of all ages through expert Kyokushin Karate in a welcoming, family-focused environment.</p>
+            <div class="btn-row">
+              <a class="btn btn--primary" href="#trial" data-trial>Get a Free Trial</a>
+              <a class="btn btn--light" href="#programs">Explore Programs</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="hero__slide hero__slide--alt" id="slide-2" role="group" aria-roledescription="slide" aria-label="2 of 2" aria-hidden="true">
+          <div class="hero__media img-frame" data-label="Photo: Sensei and dojo members">
+            <img src="assets/images/hero-dojo-community.jpg" alt="Ten SKA DOJO karateka in white gi with arms crossed in a group formation" width="1600" height="1000" loading="lazy" decoding="async">
+          </div>
+          <div class="container hero__content">
+            <p class="eyebrow">One Dojo</p>
+            <h2 class="hero__title">One Dojo. One Spirit. Endless Possibilities.</h2>
+            <p class="hero__text">Discover the spirit of Kyokushin through dedicated training, shared values, and a community that grows stronger together.</p>
+            <div class="hero-event" id="hero-event" data-config="featured-event">
+              <span class="hero-event__label">Upcoming Event</span>
+              <strong class="hero-event__title">[PLACEHOLDER] Event title</strong>
+              <span class="hero-event__meta">[PLACEHOLDER] Date · [PLACEHOLDER] Location</span>
+            </div>
+            <div class="btn-row">
+              <a class="btn btn--primary" href="#events" data-hero-event-link>Explore Event</a>
+              <a class="btn btn--light" href="#trial" data-trial>Get a Free Trial</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero__controls container">
+        <button class="hero__arrow" type="button" data-hero-prev aria-label="Previous slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M15 5l-7 7 7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <div class="hero__dots" role="group" aria-label="Choose slide">
+          <button type="button" class="is-active" data-hero-dot="0" aria-label="Show slide 1" aria-current="true"></button>
+          <button type="button" data-hero-dot="1" aria-label="Show slide 2"></button>
+        </div>
+        <button class="hero__arrow" type="button" data-hero-next aria-label="Next slide">
+          <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M9 5l7 7-7 7" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </button>
+        <button class="hero__play" type="button" data-hero-toggle aria-label="Pause automatic slide rotation">Pause</button>
+      </div>
+      <p class="visually-hidden" aria-live="polite" id="hero-live"></p>
+    </section>
+
+    <!-- SECTION 2: WELCOME -->
+    <section class="section section--light" id="about" aria-labelledby="about-title">
+      <div class="container split">
+        <div class="split__media">
+          <div class="img-frame img-frame--tall" data-label="Photo: SKA DOJO training hall">
+            <img src="assets/images/about-dojo.jpg" alt="Instructor and four students in white gi with black belts standing in a line outdoors" width="900" height="1100" loading="lazy" decoding="async">
+          </div>
+          <div class="stamp" aria-hidden="true"><span>OSU</span></div>
+        </div>
+        <div class="split__body">
+          <p class="eyebrow eyebrow--red">Welcome to SKA DOJO</p>
+          <h2 class="display" id="about-title">More Than Karate. A Way of Life.</h2>
+          <p class="lead">Kyokushin Karate training can support discipline, perseverance, physical fitness, confidence, respect and personal growth. Whether you are stepping onto the mats for the first time or returning after years of practice, you are welcome here.</p>
+          <p>SKA DOJO is a place to train hard, learn properly and be part of a community that supports every student.</p>
+          <ul class="icon-list">
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3l8 4v5c0 4.5-3.2 8.2-8 9-4.8-.8-8-4.5-8-9V7l8-4z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              <span><strong>Discipline</strong> Focus built through repetition.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 20l5-5m0 0l-3-3 8-8 6 6-8 8-3-3z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+              <span><strong>Strength</strong> Physical fitness and resilience.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 20c.5-4 3.2-6 7-6s6.5 2 7 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+              <span><strong>Confidence</strong> Grow on and off the mats.</span>
+            </li>
+            <li>
+              <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 21s-7-4.4-7-10a4 4 0 017-2.6A4 4 0 0119 11c0 5.6-7 10-7 10z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></svg>
+              <span><strong>Respect</strong> For teachers, partners and the dojo.</span>
+            </li>
+          </ul>
+          <a class="btn btn--dark" href="#values">Discover SKA DOJO</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: PROGRAMS -->
+    <section class="section section--off" id="programs" aria-labelledby="programs-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">Our Programs</p>
+          <h2 class="display" id="programs-title">Find Your Path.</h2>
+          <p class="lead">Training designed to help every student build strength, discipline, confidence, and skill.</p>
+        </header>
+        <div class="grid grid--programs" id="program-grid">
+          <noscript><p>Please enable JavaScript to see programs, or contact the dojo directly.</p></noscript>
+        </div>
+        <p class="note" id="program-note" hidden>Program names, venues and schedules shown are editable placeholders and are not confirmed.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 4: VALUES -->
+    <section class="section section--dark values" id="values" aria-labelledby="values-title">
+      <div class="container">
+        <div class="values__layout">
+          <div class="values__intro">
+            <p class="eyebrow">The Dojo Way</p>
+            <h2 class="display display--light" id="values-title">Our Values, Your Journey.</h2>
+            <p class="lead lead--light">Discover the people, passion, and purpose behind our school — and how we've helped students thrive on and off the mats.</p>
+            <div class="img-frame img-frame--wide img-frame--dark" data-label="Photo: Training session">
+              <img src="assets/images/values-training.jpg" alt="Six karateka performing a kata in synchronised stances on a wet training field" width="1200" height="800" loading="lazy" decoding="async">
+            </div>
+            <a class="btn btn--light" href="#about">About Us</a>
+          </div>
+          <ol class="values__list">
+            <li><span class="values__num">01</span><div><h3>Discipline</h3><p>Show up, train, repeat. Consistency shapes character.</p></div></li>
+            <li><span class="values__num">02</span><div><h3>Respect</h3><p>For sensei, for partners, for the dojo, for yourself.</p></div></li>
+            <li><span class="values__num">03</span><div><h3>Perseverance</h3><p>Progress is earned one hard class at a time.</p></div></li>
+            <li><span class="values__num">04</span><div><h3>Courage</h3><p>Face the difficult drill, the new challenge, the next grade.</p></div></li>
+            <li><span class="values__num">05</span><div><h3>Community</h3><p>Students of every age training side by side.</p></div></li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: WHY CHOOSE -->
+    <section class="section section--light" id="why" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">What to Expect</p>
+          <h2 class="display" id="why-title">Why Choose SKA DOJO?</h2>
+        </header>
+        <div class="why-grid">
+          <article class="why-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <h3>Structured Karate Training</h3>
+            <p>Classes built around fundamentals, kata and kumite. [Confirm class structure with the dojo.]</p>
+          </article>
+          <article class="why-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 19V9m7 10V5m7 14v-7" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <h3>Personal Growth and Discipline</h3>
+            <p>Training that encourages focus, resilience and self-control over time.</p>
+          </article>
+          <article class="why-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l9-7 9 7v9H3v-9z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><path d="M10 20v-6h4v6" fill="none" stroke="currentColor" stroke-width="1.8"/></svg>
+            <h3>A Welcoming Training Environment</h3>
+            <p>A family-focused dojo where newcomers and experienced students train together.</p>
+          </article>
+          <article class="why-card">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="8" r="3.5" fill="none" stroke="currentColor" stroke-width="1.8"/><path d="M5 20c.5-4 3.2-6 7-6s6.5 2 7 6" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg>
+            <h3>Guidance from Experienced Instructors</h3>
+            <p>Learn from the dojo's instructors. [Add verified ranks and experience in the config.]</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: INSTRUCTORS -->
+    <section class="section section--off" id="instructors" aria-labelledby="instructors-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">Our Team</p>
+          <h2 class="display" id="instructors-title">Guided by Experience. United by Karate.</h2>
+        </header>
+        <div class="grid grid--instructors" id="instructor-grid"></div>
+        <p class="note" id="instructor-note" hidden>Names, ranks and titles are placeholders. Add verified details only.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 7: TESTIMONIALS -->
+    <section class="section section--dark" id="testimonials" aria-labelledby="testimonials-title">
+      <div class="container">
+        <header class="section-head section-head--light">
+          <p class="eyebrow">Voices of the Dojo</p>
+          <h2 class="display display--light" id="testimonials-title">Stronger Together.</h2>
+        </header>
+        <div class="grid grid--testimonials" id="testimonial-grid"></div>
+        <p class="note note--light" id="testimonial-note" hidden>Placeholder testimonials. Replace with genuine, approved quotes before launch.</p>
+      </div>
+    </section>
+
+    <!-- SECTION 8: EVENTS -->
+    <section class="section section--light" id="events" aria-labelledby="events-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">Upcoming Events</p>
+          <h2 class="display" id="events-title">Beyond the Mats.</h2>
+          <p class="lead">Tournaments, gradings, seminars, workshops and community events.</p>
+        </header>
+        <div class="grid grid--events" id="event-grid"></div>
+        <div class="center" id="events-all" hidden>
+          <a class="btn btn--dark" href="#events" id="events-all-link">Explore All Events</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: FIND YOUR DOJO -->
+    <section class="section section--off" id="find" aria-labelledby="find-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">Contact</p>
+          <h2 class="display" id="find-title">Your Next Step Starts Here.</h2>
+        </header>
+        <div class="branches" id="branch-grid"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: HOW TO GET STARTED -->
+    <section class="section section--light" id="steps" aria-labelledby="steps-title">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">How to Get Started</p>
+          <h2 class="display" id="steps-title">Four Steps to the Mats.</h2>
+        </header>
+        <ol class="steps">
+          <li class="step">
+            <span class="step__num" aria-hidden="true">1</span>
+            <h3><a href="#trial" data-trial>Book Your Free Trial</a></h3>
+            <p>Send a trial request using the form. [Confirm whether trials are free.]</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">2</span>
+            <h3>Visit the Dojo</h3>
+            <p>Meet the instructors, see a class and ask your questions.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">3</span>
+            <h3>Choose Your Program</h3>
+            <p>Find the class that suits your age, goals and experience.</p>
+          </li>
+          <li class="step">
+            <span class="step__num" aria-hidden="true">4</span>
+            <h3>Begin Your Karate Journey</h3>
+            <p>Train regularly, learn with respect and progress at your pace.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- SECTION 11: FAQ -->
+    <section class="section section--off" id="faq" aria-labelledby="faq-title">
+      <div class="container container--narrow">
+        <header class="section-head">
+          <p class="eyebrow eyebrow--red">FAQ</p>
+          <h2 class="display" id="faq-title">Frequently Asked Questions</h2>
+          <p class="note">Answers containing [brackets] still need dojo-confirmed details.</p>
+        </header>
+        <div class="faq" id="faq-list"></div>
+      </div>
+    </section>
+
+    <!-- SECTION 12: TRIAL FORM -->
+    <section class="section section--dark trial" id="trial" aria-labelledby="trial-title">
+      <div class="container trial__layout">
+        <div class="trial__intro">
+          <p class="eyebrow">Free Trial</p>
+          <h2 class="display display--light" id="trial-title">Take the First Step.</h2>
+          <p class="lead lead--light">Experience the spirit of Kyokushin Karate and discover the right training program for you.</p>
+          <p class="note note--light">Prototype notice: until a submission endpoint is configured, this form only checks your entries in the browser. Nothing is sent to the dojo.</p>
+          <a class="btn btn--whatsapp" id="whatsapp-btn" href="#trial" aria-disabled="true" hidden>Enquire on WhatsApp</a>
+        </div>
+
+        <form class="form" id="trial-form" novalidate>
+          <div class="form__status" id="form-status" role="status" aria-live="polite" tabindex="-1"></div>
+
+          <div class="field">
+            <label for="f-name">Full name <span aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" autocomplete="name" required aria-describedby="e-name">
+            <p class="field__error" id="e-name"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-age">Age group <span aria-hidden="true">*</span></label>
+            <select id="f-age" name="ageGroup" required aria-describedby="e-age">
+              <option value="">Select age group</option>
+              <option value="child">Under 13</option>
+              <option value="teen">13 – 17</option>
+              <option value="adult">18 or over</option>
+            </select>
+            <p class="field__error" id="e-age"></p>
+          </div>
+
+          <div class="field" id="guardian-field" hidden>
+            <label for="f-guardian">Parent / guardian name <span aria-hidden="true">*</span></label>
+            <input id="f-guardian" name="guardian" type="text" autocomplete="off" aria-describedby="e-guardian">
+            <p class="field__error" id="e-guardian"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-phone">Phone number <span aria-hidden="true">*</span></label>
+            <input id="f-phone" name="phone" type="tel" inputmode="tel" autocomplete="tel" required aria-describedby="e-phone">
+            <p class="field__error" id="e-phone"></p>
+          </div>
+
+          <div class="field">
+            <label for="f-email">Email address <small>(optional)</small></label>
+            <input id="f-email" name="email" type="email" autocomplete="email" aria-describedby="e-email">
+            <p class="field__error" id="e-email"></p>
+          </div>
+
+          <div class="field-row">
+            <div class="field">
+              <label for="f-program">Preferred program <span aria-hidden="true">*</span></label>
+              <select id="f-program" name="program" required aria-describedby="e-program">
+                <option value="">Select a program</option>
+              </select>
+              <p class="field__error" id="e-program"></p>
+            </div>
+            <div class="field">
+              <label for="f-branch">Preferred branch <span aria-hidden="true">*</span></label>
+              <select id="f-branch" name="branch" required aria-describedby="e-branch">
+                <option value="">Select a branch</option>
+              </select>
+              <p class="field__error" id="e-branch"></p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="f-date">Preferred date or session <small>(optional)</small></label>
+            <input id="f-date" name="session" type="text" placeholder="e.g. a weekday evening" autocomplete="off">
+          </div>
+
+          <div class="field">
+            <label for="f-message">Message <small>(optional)</small></label>
+            <textarea id="f-message" name="message" rows="3"></textarea>
+          </div>
+
+          <!-- Honeypot for basic spam filtering. Real spam prevention (CAPTCHA, server checks) must be added on the backend. -->
+          <div class="hp" aria-hidden="true">
+            <label for="f-website">Leave this field empty</label>
+            <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+          </div>
+
+          <div class="field field--check">
+            <input id="f-consent" name="consent" type="checkbox" required aria-describedby="e-consent">
+            <label for="f-consent">I agree to the <a href="privacy.html">Privacy Policy</a> and to being contacted about my enquiry. <span aria-hidden="true">*</span></label>
+            <p class="field__error" id="e-consent"></p>
+          </div>
+
+          <button class="btn btn--primary btn--block" type="submit" id="form-submit">Request Free Trial</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- SECTION 13: FINAL CTA -->
+    <section class="final-cta" aria-labelledby="cta-title">
+      <div class="final-cta__media img-frame img-frame--dark" data-label="Photo: Karate training">
+        <img src="assets/images/cta-karate.jpg" alt="Two karateka in a dramatic flying-kick and block exchange" width="1600" height="800" loading="lazy" decoding="async">
+      </div>
+      <div class="container final-cta__content">
+        <h2 class="display display--light" id="cta-title">Your Karate Journey Starts Today.</h2>
+        <p class="lead lead--light">Build strength. Develop discipline. Grow with SKA DOJO.</p>
+        <a class="btn btn--primary btn--lg" href="#trial" data-trial>Get a Free Trial</a>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- SECTION 14: FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a class="wordmark" href="#home" aria-label="SKA DOJO – back to top">
+          <span class="wordmark__mark" aria-hidden="true">S</span>
+          <span class="wordmark__text">SKA <span>DOJO</span></span>
+        </a>
+        <p>Kyokushin Karate training for students of all ages in a welcoming, family-focused environment.</p>
+        <ul class="social" id="footer-social"></ul>
+      </div>
+      <nav aria-label="Footer – explore">
+        <h2 class="footer__title">Explore</h2>
+        <ul>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#programs">Programs</a></li>
+          <li><a href="#instructors">Instructors</a></li>
+          <li><a href="#events">Events</a></li>
+          <li><a href="#faq">FAQ</a></li>
+          <li><a href="#trial">Free Trial</a></li>
+        </ul>
+      </nav>
+      <div>
+        <h2 class="footer__title">Programs</h2>
+        <ul id="footer-programs"></ul>
+      </div>
+      <div>
+        <h2 class="footer__title">Visit &amp; Contact</h2>
+        <address id="footer-contact"></address>
+      </div>
+    </div>
+    <div class="container footer__legal">
+      <p>&copy; <span id="year">2026</span> SKA DOJO. All rights reserved.</p>
+      <ul>
+        <li><a href="privacy.html">Privacy Policy</a></li>
+        <li><a href="terms.html">Terms &amp; Conditions</a></li>
+      </ul>
+    </div>
+  </footer>
+
+  <button class="to-top" type="button" id="to-top" aria-label="Back to top" hidden>
+    <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M12 19V5m-6 6l6-6 6 6" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+  </button>
+
+  <script src="js/config.js"></script>
+  <script src="js/script.js" defer></script>
+</body>
+</html>

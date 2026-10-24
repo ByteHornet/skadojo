@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+# PLACEHOLDER: replace with the live domain
+Sitemap: https://www.example.com/sitemap.xml
